@@ -135,28 +135,6 @@ h1 {
     overflow: hidden;
 }
 
-.knop {
-    position:absolute;
-    left: 50%;
-    top: 85%;
-    transform: translate(-50%, -50%);
-    display: inline-block;
-    background-color: transparent;
-    color: white;
-    padding: 12px 25px;
-    border: 2px solid #94f285;
-    border-radius: 8px;
-    font-size: 18px;
-    font-family: "Montserrat", sans-serif;
-    text-decoration: none;
-    cursor: pointer;
-    transition: transform 0.2s ease;
-}
-
-.knop:hover {
-    background-color:#94f285;
-    transform: translate(-50%, -50%) scale(0.95);
-}
 
 body::after {
     content: "";
@@ -170,6 +148,7 @@ body::after {
     pointer-events: none;
 }
 
-h3 {
+.geennummers {
     color: white;
+    display: none;
 }
