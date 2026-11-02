@@ -133,6 +133,7 @@ h1 {
     align-items: center;
     position: relative;
     overflow: hidden;
+    transition: transform 0.2s ease;
 }
 
 
@@ -151,4 +152,8 @@ body::after {
 .geennummers {
     color: white;
     display: none;
+}
+
+.groen-blok:hover {
+    transform: scale(1.05);
 }
